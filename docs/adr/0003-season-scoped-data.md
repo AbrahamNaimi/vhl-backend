@@ -1,7 +1,8 @@
 # ADR 003: Alle competitiedata hoort bij een seizoen
 
 Status: Geaccepteerd
-Datum: <datum>
+
+Datum: 10/11/2026
 
 ## Context
 De league speelt in seizoenen. Een team speelt meestal meerdere seizoenen,

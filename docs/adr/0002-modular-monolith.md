@@ -1,7 +1,8 @@
 # ADR 002: Modulaire monoliet
 
 Status: Geaccepteerd
-Datum: <datum>
+
+Datum: 10/11/2026
 
 ## Context
 De VHL-site is voor één league, met 18 teams in twee divisies en daarnaast het
@@ -35,7 +36,8 @@ terwijl één league die schaal niet nodig heeft. Een applicatie zonder indeling
 valt af, omdat niets de grenzen tussen de onderdelen bewaakt.
 
 ## Gevolgen
-- Eén build, één deploy en één database.
+- Eén build, één deploy en één database voor de backend; de Angular-frontend
+  staat in een eigen repository.
 - Gebruikt een module de interne code van een andere, of ontstaat er een kring
   tussen modules, dan faalt ModuleStructureTest.
 - Data uit een andere module haal ik op via een public klasse en een id; dat
