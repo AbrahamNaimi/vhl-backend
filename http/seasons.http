@@ -1,0 +1,23 @@
+### All seasons
+GET http://localhost:8080/api/seasons
+
+### Season 1
+GET http://localhost:8080/api/seasons/1
+
+### All divisions
+GET http://localhost:8080/api/seasons/1/divisions
+
+### All teams in season 1
+GET http://localhost:8080/api/seasons/1/teams
+
+### Divisions of season 1
+GET http://localhost:8080/api/seasons/1/divisions
+
+### Teams of season 1 in Division 1
+GET http://localhost:8080/api/seasons/1/teams?divisionId=1
+
+### Teams of season 1 in Division 2
+GET http://localhost:8080/api/seasons/1/teams?divisionId=2
+
+### Unknown season, expect 404
+GET http://localhost:8080/api/seasons/999
